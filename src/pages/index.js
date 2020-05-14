@@ -99,7 +99,7 @@ class Index extends React.Component {
                       href="mailto:m.e.hotamis@amsterdamumc.nl"
                       className="button"
                     >
-                      Stuur me een mailtje
+                      Stuur me ee n mailtje
                     </a>
                   </li>
                 </ul>
