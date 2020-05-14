@@ -1,30 +1,30 @@
-import { Link } from 'gatsby'
-import React from 'react'
-import Helmet from 'react-helmet'
-import { Waypoint } from 'react-waypoint'
-import evrim from '../assets/images/evrim.jpeg'
-import Header from '../components/Header'
-import Layout from '../components/layout'
-import Nav from '../components/Nav'
-import globe from '../assets/images/globe.svg'
-import handshake from '../assets/images/handshake.svg'
-import university from '../assets/images/university.svg'
+import { Link } from "gatsby";
+import React from "react";
+import Helmet from "react-helmet";
+import { Waypoint } from "react-waypoint";
+import evrim from "../assets/images/evrim.jpeg";
+import Header from "../components/Header";
+import Layout from "../components/layout";
+import Nav from "../components/Nav";
+import globe from "../assets/images/globe.svg";
+import handshake from "../assets/images/handshake.svg";
+import university from "../assets/images/university.svg";
 
 class Index extends React.Component {
   constructor(props) {
-    super(props)
+    super(props);
     this.state = {
       stickyNav: false,
-    }
+    };
   }
 
   _handleWaypointEnter = () => {
-    this.setState(() => ({ stickyNav: false }))
-  }
+    this.setState(() => ({ stickyNav: false }));
+  };
 
   _handleWaypointLeave = () => {
-    this.setState(() => ({ stickyNav: true }))
-  }
+    this.setState(() => ({ stickyNav: true }));
+  };
 
   render() {
     return (
@@ -44,7 +44,7 @@ class Index extends React.Component {
             <header className="major">
               <h2>Partij INTER.</h2>
               <p>
-                Als toekomstige medische professional is{' '}
+                Als toekomstige medische professional is{" "}
                 <strong>global health</strong> een onmisbaar begrip geworden.
                 Lokale gezondheidsproblematiek is nationale
                 gezondheidsproblematiek en nationale gezondheidsproblematiek is
@@ -54,9 +54,9 @@ class Index extends React.Component {
                 de problematiek niet aan. Dat moeten we samen doen.
               </p>
               <p>
-                <ul style={{ 'list-style': 'none' }}>
+                <ul style={{ "list-style": "none" }}>
                   <li>
-                    Wij zijn voor toekomstige <strong>internationale</strong>{' '}
+                    Wij zijn voor toekomstige <strong>internationale</strong>{" "}
                     medische leiders.
                   </li>
                   <li>
@@ -95,12 +95,12 @@ class Index extends React.Component {
                 </p>
                 <ul className="actions">
                   <li>
-                    <Link
-                      to="mailto:m.e.hotamis@amsterdamumc.nl"
+                    <a
+                      href="mailto:m.e.hotamis@amsterdamumc.nl"
                       className="button"
                     >
                       Stuur me een mailtje
-                    </Link>
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -170,17 +170,21 @@ class Index extends React.Component {
             <footer className="major">
               <ul className="actions">
                 <li>
-                  <Link to="google.nl" className="button">
-                    Lees ons volledige program
-                  </Link>
+                  <a
+                    href="https://docs.google.com/document/d/e/2PACX-1vSgI_VBhPK34xuGZOxUo40NnOwLEEHnArnAFbS30Yz1WjHyB4Yi_Q1AjqIyzdvmFtjGWkZNw4XUFO_L/pub"
+                    target="_blank"
+                    className="button"
+                  >
+                    Lees ons voorlopige partijprogramma
+                  </a>
                 </li>
               </ul>
             </footer>
           </section>
         </div>
       </Layout>
-    )
+    );
   }
 }
 
-export default Index
+export default Index;
