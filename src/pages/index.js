@@ -42,16 +42,16 @@ class Index extends React.Component {
         <div id="main">
           <section id="intro" className="main special">
             <header className="major">
-              <h2>Partij INTER.</h2>
+              <h2>Partij INTER. | Geneeskunde UvA</h2>
               <p>
                 Als toekomstige medische professional is{" "}
                 <strong>global health</strong> een onmisbaar begrip geworden.
                 Lokale gezondheidsproblematiek is nationale
                 gezondheidsproblematiek en nationale gezondheidsproblematiek is
                 internationale gezondheidsproblematiek. Toch is het
-                geneeskundeonderwijs nog steeds eenzijdig gericht op het
-                opleiden van toekomstige Nederlandse dokters. Alleen kunnen we
-                de problematiek niet aan. Dat moeten we samen doen.
+                geneeskundeonderwijs op de UvA nog steeds eenzijdig gericht op
+                het opleiden van toekomstige Nederlandse dokters. Alleen kunnen
+                we de problematiek niet aan. Dat moeten we samen doen.
               </p>
               <p>
                 <ul style={{ "list-style": "none" }}>
@@ -81,15 +81,15 @@ class Index extends React.Component {
                   <h2>Onze mensen</h2>
                 </header>
                 <p>
-                  Ik ben Evrim Hotamis, eerstejaars co-assistent en lijsttrekker
-                  voor Partij INTER. Ik vind dat een medisch-academische
-                  opleiding veel meer is dan enkel de beroepsopleiding tot
-                  dokter. Als lid van de studentenraad wil ik opkomen voor het
-                  integreren van persoonlijke ontwikkeling binnen het
-                  curriculum, voor meer global health binnen het masteronderwijs
-                  en voor interfacultaire samenwerking met andere
-                  geneeskundefaculteiten en met de paramedische faculteiten van
-                  de HvA. <br /> <br />
+                  Ik ben Evrim Hotamis, eerstejaars co-assistent op de UvA en
+                  lijsttrekker voor Partij INTER. Ik vind dat een
+                  medisch-academische opleiding veel meer is dan enkel de
+                  beroepsopleiding tot dokter. Als lid van de studentenraad wil
+                  ik opkomen voor het integreren van persoonlijke ontwikkeling
+                  binnen het curriculum, voor meer global health binnen het
+                  masteronderwijs en voor interfacultaire samenwerking met
+                  andere geneeskundefaculteiten en met de paramedische
+                  faculteiten van de HvA. <br /> <br />
                   Ik wil een UvA dat toekomstige medische leiders vormt. Dat kan
                   enkel met jouw stem. Stem daarom 8-12 juni Partij INTER.
                 </p>

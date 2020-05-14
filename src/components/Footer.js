@@ -1,28 +1,28 @@
-import { Link } from 'gatsby'
-import React from 'react'
+import { Link } from "gatsby";
+import React from "react";
 
-const Footer = props => (
+const Footer = (props) => (
   <footer id="footer">
     <section>
       <h2>Credits</h2>
-      Icons made by{' '}
+      Icons made by{" "}
       <a
         href="https://www.flaticon.com/authors/vitaly-gorbachev"
         title="Vitaly Gorbachev"
       >
         Vitaly Gorbachev
-      </a>{' '}
-      from{' '}
+      </a>{" "}
+      from{" "}
       <a href="https://www.flaticon.com/" title="Flaticon">
-        {' '}
+        {" "}
         www.flaticon.com
       </a>
       <div>
-        Icons made by{' '}
+        Icons made by{" "}
         <a href="https://www.flaticon.com/authors/freepik" title="Freepik">
           Freepik
-        </a>{' '}
-        from{' '}
+        </a>{" "}
+        from{" "}
         <a href="https://www.flaticon.com/" title="Flaticon">
           www.flaticon.com
         </a>
@@ -33,10 +33,11 @@ const Footer = props => (
       <dl className="alt">
         <dt>Email</dt>
         <dd>
-          <a href="mailto:amc@partij-inter.nl">amc@partij-inter.nl</a>
+          {/* <a href="mailto:amc@partij-inter.nl">amc@partij-inter.nl</a> */}
+          <a href="mailto:m.e.hotamis@amsterdamumc.nl">Lijsttrekker AMC</a>
         </dd>
       </dl>
-      Volg ons ook op: <br /> <br />{' '}
+      Volg ons ook op: <br /> <br />{" "}
       <ul className="icons">
         <li></li>
         <li>
@@ -55,6 +56,6 @@ const Footer = props => (
       &copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.
     </p>
   </footer>
-)
+);
 
-export default Footer
+export default Footer;
