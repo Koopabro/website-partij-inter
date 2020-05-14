@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter - Stellar by HTML5 UP",
-    author: "Hunter Chang",
-    description: "A Gatsby.js Starter based on Stellar by HTML5 UP"
+    title: "Partij INTER. - Universiteit van Amsterdam",
+    author: "Evrim Hotamis",
+    description: "De homepage van partij INTER. - de partij die staat voor een bredere ontwikkeling binnen het medisch onderwijs"
   },
   plugins: [
     'gatsby-plugin-react-helmet',
